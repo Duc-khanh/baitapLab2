@@ -1,10 +1,10 @@
 public class Dog extends Animal {
-    @Override
-    public void go() {
-        System.out.println("walk on two legs");
+@Override
+    public void walk() {
+        System.out.println("walk on four legs");
     }
-   void makeSound() {
-        System.out.println("Dog barks");
+    public void makeSound() {
+        System.out.println("Bark");
     }
     public void eat(String food) {
         System.out.println("Dog eats    " + food);

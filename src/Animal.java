@@ -1,7 +1,11 @@
 public abstract class Animal {
-    void makeSound() {
-        System.out.println(" Animal makes a sound");
-    }
-    public abstract void go();
 
-}
+
+    public abstract void walk();
+
+    public abstract void makeSound();
+
+    }
+
+
+
